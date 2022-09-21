@@ -1,4 +1,4 @@
-package patternmatching;
+package basicpatternmatching;
 
 public class Point {
     private float x;
