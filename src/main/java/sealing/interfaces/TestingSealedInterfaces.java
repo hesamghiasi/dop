@@ -1,6 +1,6 @@
-package sealedclasses;
+package sealing.interfaces;
 
-public class Main {
+public class TestingSealedInterfaces {
 
     public static void main(String[] args) {
         Circle circle = new Circle();
@@ -18,11 +18,10 @@ public class Main {
 
     private static Float getPerimeter(TwoDimensionalShape shape) {
         return switch (shape){
-
             case Circle circle -> circle.calculatePerimeter();
             case Oval oval -> oval.calculatePerimeter();
-            case Rectangle rectangle -> null;
-            case Triangle triangle -> null;
+            case Rectangle rectangle -> rectangle.calculatePerimeter();
+            case Triangle triangle -> triangle.calculatePerimeter();
         };
     }
 }

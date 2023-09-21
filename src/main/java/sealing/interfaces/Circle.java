@@ -1,6 +1,4 @@
-package sealedclasses;
-
-import patternmatching.Point;
+package sealing.interfaces;
 
 public final class Circle implements TwoDimensionalShape {
 

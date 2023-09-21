@@ -1,6 +1,4 @@
-package sealedclasses;
-
-import patternmatching.Point;
+package sealing.interfaces;
 
 public final class Oval implements TwoDimensionalShape {
 

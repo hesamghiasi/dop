@@ -1,4 +1,4 @@
-package patternmatching;
+package sealing.interfaces;
 
 import java.util.Objects;
 

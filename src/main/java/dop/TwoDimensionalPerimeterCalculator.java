@@ -1,6 +1,6 @@
 package dop;
 
-public class TwoDimensionalPermiterCalculator {
+public class TwoDimensionalPerimeterCalculator {
     
     public Float getPerimeter(TwoDimensionalShape shape){
         return switch (shape){

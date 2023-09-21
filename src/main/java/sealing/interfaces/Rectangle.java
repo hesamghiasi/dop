@@ -1,12 +1,11 @@
-package sealedclasses;
+package sealing.interfaces;
 
-import patternmatching.Point;
-
-public final class Triangle implements TwoDimensionalShape {
+public final class Rectangle implements TwoDimensionalShape {
 
     private Point vertexOne;
     private Point vertexTwo;
     private Point vertexThree;
+    private Point vertexFour;
     @Override
     public float calculateArea() {
         return 0;
